@@ -1,7 +1,7 @@
-# MODULE TITLE
+# CSS ANIMATION DELAY
 
-  Mobile-first classes.
-  Set the desired  on any element for any breakpoint.
+  Mobile-first classes for css-animation-delay.
+  Set the desired css-animation-delay on any element for any breakpoint.
   Base class names are namespaced across three breakpoints:
 
 *  -ns = not-small (covers everything larger than mobile)
@@ -10,7 +10,7 @@
 
 ## Install
 ```
-npm install --save-dev
+npm install --save-dev css-animation-delay
 ```
 or download the css on github and include in your project.
 
@@ -19,6 +19,44 @@ or download the css on github and include in your project.
 
 ## The Code
 ```
+  .a-delay-1 { animation-delay: .5s; }
+  .a-delay-2 { animation-delay: 1s; }
+  .a-delay-3 { animation-delay: 2s; }
+  .a-delay-4 { animation-delay: 4s; }
+  .a-delay-5 { animation-delay: 8s; }
+  .a-delay-6 { animation-delay: 16s; }
+
+
+  /* First breakpoint and larger */
+@include break(not-small) {
+  .a-delay-1-ns { animation-delay: .5s; }
+  .a-delay-2-ns { animation-delay: 1s; }
+  .a-delay-3-ns { animation-delay: 2s; }
+  .a-delay-4-ns { animation-delay: 4s; }
+  .a-delay-5-ns { animation-delay: 8s; }
+  .a-delay-6-ns { animation-delay: 16s; }
+}
+
+  /* Second breakpoint */
+@include break(medium) {
+  .a-delay-1-m { animation-delay: .5s; }
+  .a-delay-2-m { animation-delay: 1s; }
+  .a-delay-3-m { animation-delay: 2s; }
+  .a-delay-4-m { animation-delay: 4s; }
+  .a-delay-5-m { animation-delay: 8s; }
+  .a-delay-6-m { animation-delay: 16s; }
+}
+
+  /* Third breakpoint */
+@include break(large) {
+  .a-delay-1-l { animation-delay: .5s; }
+  .a-delay-2-l { animation-delay: 1s; }
+  .a-delay-3-l { animation-delay: 2s; }
+  .a-delay-4-l { animation-delay: 4s; }
+  .a-delay-5-l { animation-delay: 8s; }
+  .a-delay-6-l { animation-delay: 16s; }
+}
+
 ```
 
 ## Author
