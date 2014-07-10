@@ -6,15 +6,15 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "performance",
+    "animations"
   ],
   "css-animation-delay": {
     "type": "git",
     "url": "http://github.com/mrmrs/css-animation-delay.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/repo/issues",
+    "url": "https://github.com/mrmrs/css-animation-delay/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
