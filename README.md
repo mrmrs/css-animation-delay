@@ -28,7 +28,7 @@ or download the css on github and include in your project.
 
 
   /* First breakpoint and larger */
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .a-delay-1-ns { animation-delay: .5s; }
   .a-delay-2-ns { animation-delay: 1s; }
   .a-delay-3-ns { animation-delay: 2s; }
@@ -38,7 +38,7 @@ or download the css on github and include in your project.
 }
 
   /* Second breakpoint */
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .a-delay-1-m { animation-delay: .5s; }
   .a-delay-2-m { animation-delay: 1s; }
   .a-delay-3-m { animation-delay: 2s; }
@@ -48,7 +48,7 @@ or download the css on github and include in your project.
 }
 
   /* Third breakpoint */
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .a-delay-1-l { animation-delay: .5s; }
   .a-delay-2-l { animation-delay: 1s; }
   .a-delay-3-l { animation-delay: 2s; }
