@@ -21,7 +21,9 @@ View on [npm](https://www.npmjs.org/package/css-animation-delay)
 ## File Size
 
 1.2K animation-delay.css
-904B animation-delay.min.css
+904B animation-delay.min.css 
+200B minified and gzipped
+
 
 ## The Code
 ```
