@@ -1,7 +1,7 @@
 # CSS ANIMATION DELAY
 
-  Mobile-first classes for css-animation-delay.
-  Set the desired css-animation-delay on any element for any breakpoint.
+  Mobile-first classes for an animation-delay scale.
+  Set the desired animation-delay on any element for any breakpoint.
   Base class names are namespaced across three breakpoints:
 
 *  -ns = not-small (covers everything larger than mobile)
@@ -9,13 +9,19 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-animation-delay
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-animation-delay)
+
+
 
 ## File Size
 
+1.2K animation-delay.css
+904B animation-delay.min.css
 
 ## The Code
 ```
