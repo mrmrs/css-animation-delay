@@ -44,6 +44,7 @@
     "interpret": "^0.5.0",
     "minimist": "^1.1.0",
     "pretty-hrtime": "^1.0.0",
-    "readable-stream": "^1.0.33"
+    "readable-stream": "^1.0.33",
+    "tachyons-cli": "^0.3.2"
   }
 }
