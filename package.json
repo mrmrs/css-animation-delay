@@ -1,7 +1,7 @@
 {
   "name": "css-animation-delay",
   "style": "animation-delay.css",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "homepage": "http://github.com/mrmrs/css-animation-delay",
   "description": "Css module of single purpose classes for animation delay",
   "keywords": [
