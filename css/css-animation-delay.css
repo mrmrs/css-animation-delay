@@ -11,5 +11,5 @@
 
   Example
     $ tachyons src/tachyons.css > dist/c.css
-    $ tachyons src/tachyons.css > dist/c.css --minify
+    $ tachyons -m src/tachyons.css > dist/c.css
     $ tachyons src/tachyons-type-scale.css --generate-docs --package=./package.json > readme.md
