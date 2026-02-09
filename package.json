@@ -1,38 +1,44 @@
 {
   "name": "css-animation-delay",
-  "style": "animation-delay.css",
-  "version": "1.0.11",
-  "homepage": "http://github.com/mrmrs/css-animation-delay",
-  "description": "Css module of single purpose classes for animation delay",
+  "version": "2.0.0",
+  "description": "Functional CSS for animation-delay",
+  "style": "dist/animation-delay.css",
+  "main": "dist/animation-delay.css",
+  "exports": {
+    ".": "./dist/animation-delay.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "performance",
-    "animations"
+    "animation-delay",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-animation-delay": {
+  "homepage": "https://github.com/mrmrs/css-animation-delay",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-animation-delay.git"
+    "url": "https://github.com/mrmrs/css-animation-delay.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-animation-delay/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-animation-delay/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
   }
 }
